@@ -25,9 +25,10 @@ export const Contact = () => {
         <img
           src="https://www.halkbank.com.tr/tr/bize-ulasin/_jcr_content/root/responsivegrid/responsivegrid/responsivegrid_780183488/teaser.coreimg.jpeg/1614260089246/yatirimci-iletisimi.jpeg"
           alt=""
+          className="rounded-lg"
         />
       </div>
-      <div className="flex items-center justify-start space-x-4">
+      <div className="flex items-center justify-start lg:space-x-4 my-6  lg:my-12">
         <div className="flex items-center justify-evenly spcae-x-6 lg:space-x-12 basis-1/2 border border-gray-100 shadow-xl rounded-lg">
           <div className="flex flex-col items-start justify-start space-y-6 px-4 container my-6 basis-1/2">
             <h1 className="font-bold text-4xl text-red-500">Bizi Arayın</h1>
