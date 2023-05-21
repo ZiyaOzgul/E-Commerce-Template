@@ -19,7 +19,7 @@ export const Contact = () => {
           accusantium tenetur neque exercitationem maiores sit voluptates minus,
           officia magnam voluptate voluptatem, et iure odit pariatur, enim esse?
         </p>
-        <h1 className="text-4xl font-bold uppercase text-red-500 font-sans py-12">
+        <h1 className="text-4xl font-bold uppercase text-red-500 font-sans py-12 font-gemunu">
           Bize Ulaşın
         </h1>
         <img
@@ -39,7 +39,7 @@ export const Contact = () => {
               vero impedit quod, quae ipsam?
             </p>
           </div>
-          <UilPhone className="hover:scale-110 hover:text-red-500 transition-all duration-500 ease-in-out cursor-pointer"></UilPhone>
+          <UilPhone className="w-14 h-14 text-emerald-600 hover:scale-110 hover:text-red-500 transition-all duration-500 ease-in-out cursor-pointer"></UilPhone>
         </div>
         <div className="flex items-center justify-evenly spcae-x-6 lg:space-x-12 basis-1/2 border border-gray-100 shadow-xl rounded-lg ">
           <div className="flex flex-col items-start justify-start space-y-6 px-4 container my-6 basis-1/2 ">
@@ -53,7 +53,7 @@ export const Contact = () => {
               vero impedit quod, quae ipsam?
             </p>
           </div>
-          <UilMapMarkerAlt className="hover:scale-110 hover:text-red-500 transition-all duration-500 ease-in-out cursor-pointer"></UilMapMarkerAlt>
+          <UilMapMarkerAlt className="w-14 h-14 text-slate-500 hover:scale-110 hover:text-red-500 transition-all duration-500 ease-in-out cursor-pointer"></UilMapMarkerAlt>
         </div>
       </div>
     </div>

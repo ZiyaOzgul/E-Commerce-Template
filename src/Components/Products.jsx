@@ -42,11 +42,11 @@ export const Products = () => {
                   <h2 className="font-semibold text-xl text-gray-500">
                     Price{" "}
                     <i className="font-bold text-xl text-gray-600">
-                      {item.price}
+                      {item.price} $
                     </i>
                   </h2>
                 </div>
-                <div className="absolute top-4 right-4 shadow-2xl  bg-red-800 p-3 text-white rounded-full hover:text-red-600 hover:scale-110  transition-all duration-500  ease-in-out ">
+                <div className="absolute top-4 right-4 shadow-2xl  bg-red-600 p-3 text-white rounded-full  hover:scale-110  transition-all duration-500  ease-in-out ">
                   <UilHeart></UilHeart>
                 </div>
               </div>

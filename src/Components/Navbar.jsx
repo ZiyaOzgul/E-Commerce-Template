@@ -28,12 +28,12 @@ export const Navbar = () => {
       </div>
       <div className=" container flex items-center justify-center">
         <Link to="/signIn">
-          <p className="  font-bold text-xl px-2 py-1 bg-red-700 text-white  hover:bg-red-600 duration-500 ease-in-out rounded-lg cursor-pointer ml-4">
+          <p className="  font-bold text-xl px-2 py-1 bg-gray-700 text-white  hover:bg-gray-500 duration-500 ease-in-out rounded-lg cursor-pointer ml-4">
             Sign In
           </p>
         </Link>
         <Link to="/login">
-          <p className="font-bold text-xl px-2 py-1 bg-red-700 text-white  hover:bg-red-600 duration-500 ease-in-out rounded-lg cursor-pointer ml-4">
+          <p className="font-bold text-xl px-2 py-1 bg-gray-700 text-white  hover:bg-gray-500 duration-500 ease-in-out rounded-lg cursor-pointer ml-4">
             Login
           </p>
         </Link>

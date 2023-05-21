@@ -55,7 +55,7 @@ export const Home = () => {
         <h2 className="font-semibold text-xl text-gray-500">
           Price{" "}
           <i className="font-bold text-xl text-gray-600">
-            {allProducts[currentId].price}
+            {allProducts[currentId].price} $
           </i>
         </h2>
       </div>
