@@ -15,13 +15,13 @@ const Header = () => {
         <div className="flex items-center justify-center">
           <UilWhatsapp className="text-green-700"></UilWhatsapp>
           <p className="text-sm font-medium">
-            Whatsapp Hattı: <i className="font-bold">0 536 271 72 37</i>
+            Whatsapp Hattı: <i className="font-bold">0 536 000 00 00</i>
           </p>
         </div>
         <div className="flex items-center justify-center">
           <UilPhone></UilPhone>
           <p className="text-sm font-medium">
-            Telefon: <i className="font-bold">0 506 913 45 43</i>
+            Telefon: <i className="font-bold">0 506 000 00 00</i>
           </p>
         </div>
       </div>
