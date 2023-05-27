@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { HomePage } from "./Pages/HomePage/HomePage";
-import { Navbar } from "./Components/Navbar";
+// import { Navbar } from "./Components/Navbar";
 import { SignInPage } from "./Pages/SignIn/SignInPage";
 import { LoginPage } from "./Pages/Login/LoginPage";
 import { Products } from "./Components/Products";
@@ -9,12 +9,12 @@ import { AboutPage } from "./Pages/About/AboutPage";
 import { Footer } from "./Components/Footer";
 import { ProductPage } from "./Pages/Product/ProductPage";
 import { CartPage } from "./Pages/Cart/CartPage";
-
+import Header from "./Components/Header";
 function App() {
   return (
     <>
       <nav>
-        <Navbar />
+        <Header />
       </nav>
       <Routes>
         <Route path="/" element={<HomePage />} />
